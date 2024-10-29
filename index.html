@@ -25,12 +25,13 @@
                 'secondary-color': '#ABEF5F80',
                 'h-color': '#212121',
                 'p-color': '#737373',
+                 'section_bg':'#E9E9E9'
               },
               fontFamily:{
                 Manrope:'font-family: "Manrope"'
               },
               background:{
-                section_bg:'#E9E9E9'
+               
               }
             }
           }
@@ -106,7 +107,7 @@
          </section>
 
          <!-- hero section -->
-        <div class="flex flex-col justify-center items-center mt-5 px-5">
+        <section class="flex flex-col justify-center items-center mt-5 px-5">
           <div class="mb-9 flex-1">
             <img src="./assets/banner.png" alt="" class="w-full">
           </div>
@@ -130,7 +131,58 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <!--thoughtful section  -->
+        <section class="bg-section_bg py-16">
+        <div class="w-11/12 mx-auto flex flex-col gap-7 lg:flex-row  relative ">
+            
+          <div class="hidden lg:flex lg:absolute -top-10 w-20">
+            <img src="./assets/Vector.png" alt="">
+          </div>
+          
+          <div class=" space-y-4 flex-1 mx-auto text-center lg:text-left ">
+            <button class=" bg-white text-h-color text-xs font-medium py-2 px-3 rounded-2xl  ">
+              <i class="fa-solid fa-arrow-right"></i>
+              About Us</button>
+              <h2 class="text-h-color text-4xl font-bold">We design thoughtful, liveable spaces</h2>
+              <p>The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-1 gap-5    ">
+                  <!-- card-1 -->
+                  
+                    <div class="bg-base-100 flex justify-between items-center shadow-xl  rounded-lg">
+                      
+                      <figure class="pl-5">
+                        <img src="./assets/commercial.png" alt="">
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title text-base text-h-color font-bold">Commercial</h2>
+                        <p class="text-base text-p-color font-normal">The barn house captivates with its blend of rustic charm and modern.?</p>
+                      </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="bg-base-100 flex justify-between items-center shadow-xl  rounded-lg">
+                      
+                      <figure class="pl-5">
+                        <img src="./assets/residential.png" alt="">
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title text-base text-h-color font-bold">Residential</h2>
+                        <p class="text-base text-p-color font-normal">The barn house captivates with its blend of rustic charm and modern.?</p>
+                      </div>
+                    </div>
+                  
+                </div>
+
+            </div>
+            <div class="flex-1">
+              <img src="./assets/Rectangle.png" alt="" class="w-full  object-cover">
+            </div>
+  
+          </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
