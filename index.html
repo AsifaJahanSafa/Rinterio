@@ -22,7 +22,7 @@
               colors: {
                 clifford: '#da373d',
                 'primary-color': '#ABEF5F',
-                'secondary-color': '#494949',
+                'secondary-color': '#ABEF5F80',
                 'h-color': '#212121',
                 'p-color': '#737373',
               },
@@ -38,7 +38,7 @@
       </script>
 </head>
 <body class="font-Manrope">
-    <header>
+    <header class="mb-20">
         <!-- nav section -->
          <section class="w-11/12 mx-auto px-5">
             <div class="navbar bg-base-100">
@@ -89,7 +89,7 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-full z-[1] mt-3  p-4 -left-20 shadow hover:text-h-color  hover:transition-colors duration-300 ease-in-out">
+                      class="menu menu-sm dropdown-content bg-base-100  z-[1] mt-3  p-4 -left-28 shadow hover:text-h-color  hover:transition-colors duration-300 ease-in-out">
                       <li><a class="text-base font-normal text-p-color  hover:font-extrabold ">Home</a></li>
                       <li><a class="text-base font-normal text-p-color hover:text-h-color hover:font-extrabold ">Services</a></li>
                       <li><a class="text-base font-normal text-p-color hover:text-h-color hover:font-extrabold ">Portfolio</a></li>
@@ -104,6 +104,33 @@
               </div>
             </div>
          </section>
+
+         <!-- hero section -->
+        <div class="flex flex-col justify-center items-center mt-5 px-5">
+          <div class="mb-9 flex-1">
+            <img src="./assets/banner.png" alt="" class="w-full">
+          </div>
+          <div class="hero  ">
+
+            
+            <div class="hero-content text-center flex-1">
+              <div class="">
+                <h1 class="text-4xl font-bold text-h-color">A barn house of this design has a  striking appearance</h1>
+                <p class="py-6 lg:mx-36">
+                  The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+
+                <!-- common button -->
+                <button class="btn bg-secondary-color rounded-full  text-base font-bold mr-5 ">
+                  View Details
+                  <div class="w-7 h-7 rounded-full bg-primary-color  flex justify-center text-h-color items-center text-xl font-thin  -rotate-45 mr-2 ">
+                    <i class="fa-solid fa-arrow-right "></i>
+                   
+                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
     </header>
     <main></main>
     <footer></footer>
