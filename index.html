@@ -34,8 +34,8 @@
               fontFamily:{
                 Manrope:'font-family: "Manrope"'
               },
-              background:{
-               
+              backgroundImage:{
+               formImage:"url('./assets/bg.jpg')"
               }
             }
           }
@@ -384,7 +384,7 @@
          </section>
 
          <!-- Articles section -->
-          <section class="my-16 space-y-3 text-center bg-section_bg rounded-lg">
+          <section class="mt-16 space-y-3 text-center bg-section_bg rounded-lg">
             <div class="w-11/12 mx-auto  py-16">
               <!-- common description start here -->
             <button class=" bg-secondary-color  text-h-color text-xs font-medium py-2 px-3 rounded-2xl  ">
@@ -512,6 +512,33 @@
                     </div>
                   </div>
                 
+            </div>
+          </section>
+
+          <section class="bg-formImage bg-no-repeat bg-cover">
+            <div class="w-11/12 space-y-3 mx-auto text-center py-16">
+ <!-- common description start here -->
+ <button class=" bg-secondary-color   text-h-color text-xs font-medium py-2 px-3 rounded-2xl  ">
+  <i class="fa-solid fa-arrow-right"></i>
+  Explore our Latest works</button>
+  <h2 class="text-h-color text-4xl font-bold">We design thoughtful, liveable spaces</h2>
+  <p class="max-w-2xl mx-auto">The barn house captivates with its blend of rustic charm and 
+    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <!-- common description end here -->
+
+    <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5   lg:w-5/6 mx-auto" >
+      
+        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full " />
+        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full" />
+        <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full" />
+        <input type="text" placeholder="Email Number*" class="input input-bordered rounded-full" />
+     
+      <textarea
+  placeholder="Write your message here"
+  class="textarea textarea-bordered textarea-lg w-full col-span-1 md:col-span-2 lg:col-span-2 min-h-64"></textarea>
+    
+     
+    </form>
             </div>
           </section>
     </header>
